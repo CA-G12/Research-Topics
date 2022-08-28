@@ -49,7 +49,6 @@ Create a CSR ( certificate signing request) using the private key.
 we need to use CSR to generate our certificate. To do so we need to run the below command.
 ```
 openssl req -new -key key.pem -out csr.pem
-
 ```
 Once we ran this command it will ask a few questions as shown below
 
