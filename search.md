@@ -31,7 +31,7 @@ cd cert
 
 To generate the SSL Certificate we need to follow these steps as shown below:
 
-Generate a Private Key
+#### Generate a Private Key
 ```
  openssl genrsa -out key.pem
 ```
@@ -44,7 +44,7 @@ e is 65537 (0x10001)
 
 ```
 
-Create a CSR ( certificate signing request) using the private key.
+#### Create a CSR ( certificate signing request) using the private key.
 
 we need to use CSR to generate our certificate. To do so we need to run the below command.
 ```
@@ -52,7 +52,7 @@ openssl req -new -key key.pem -out csr.pem
 ```
 Once we ran this command it will ask a few questions as shown below
 
-Generate the SSL certification from CSR
+#### Generate the SSL certification from CSR
 
 Now for the final steps, we need to use the key.pem and crs.pem files to generate our SSL certificate.
 ```
