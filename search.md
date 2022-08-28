@@ -58,3 +58,13 @@ Now for the final steps, we need to use the key.pem and crs.pem files to generat
 ```
 openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem
 ```
+### Integration of the SSL Certificate in Express
+Now let's in index.js file after app, let us add this:
+```
+const options ={
+  key:fs.readFileSync(path.join(__dirname,'./certs/key.pem')),
+  cert:fs.readFileSync(path.join(__dirname,'./certs/cert.pem')) 
+}
+const sslserver =https.createServer(options,app)
+```
+Once it's done save it and run the server.
