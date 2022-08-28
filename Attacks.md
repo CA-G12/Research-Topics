@@ -1,7 +1,33 @@
+## What is a Cyber Attack?
+**A cyber-attack** is an assault launched by a group of cyber criminals that want to steal money, data, or simply disrupt a company and lead it to suffer financial losses. 
+### What do Cyber Attacks target? 
+-    Business financial data to steal directly from the business. 
+-    Clients lists to steal customers information and sell them on the dark web or use them directly. 
+-    Intellectual property to steal the source code of the company and to steal their infrastructure. 
+### What are the types of cyber-attacks? 
+1.   **Man In The Middle Attack.** 
+In this attack, the cybercriminal intercepts the communication line between two business. The two parties think that they are talking on a secure line, but in fact, all the messages are first intercepted by the hacker, then changed into whatever he likes, then sent to the other party. 
+Why this is dangerous? 
+The hacker can wait for the two parties until they exchange payment information, then he can send his own payment information and steal all the money. This is a very common attack in the crypto world.
+
+2- **Cross Site Scripting (XSS):**
+-    They are a type of injection where the attacker sends malicious code usually sent as a browser side script through a user’s input and the output is usually generated without any validation.
+-    Usually sent to idiots like Mustafa, where the idiot does not know that the script is actually flawed, and once executed. The attacker can have access to cookies, sessions, tokens or any kind of information retained by the browser.
+
+
+
+3- **Cross-site Request forgery (CSRF):**
+-    It forces the user to execute unwanted actions on a web application in which they’re authenticated, such as sending a link via email or chat.
+-    If the user is normal, he will perform requests like sending money or changing their e-mail address.
+-    If the user is has an administrative  account,  the attack can compromise the whole web application. 
+
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" />
 
 ## How to Prevent Different  Attacks in Web Security?
+
+<img src="https://www.cyberdb.co/wp-content/uploads/2020/10/webapp.jpg" />
+
 - <span style="color: yellow"> **Keep your system up to date:** </span> Not updating the software regularly makes it weaker and leaves the system more vulnerable to attacks. Hackers take advantage of these flaws, and cybercriminals take advantage of them to get access to your network.
 
 - **Prevent connecting to the public WiFi network:** An unsecured Wi-Fi connection can be used by hackers to spread malware. If you allow file-sharing across a network, a hacker can simply infect your computer with tainted software. The ability of a hacker to put himself between you and the connection point poses the greatest threat to free Wi-Fi security.
@@ -12,7 +38,7 @@
 
 - **Use strong alphanumeric passwords with special characters.**
 
-- **Use HTTPS websites **
+- **Use HTTPS websites**
 - **Make sure you log out after your work is done (like after making a transaction on net banking sites)**
 
  - **Filter user input:** Sanitize the user’s input when they request some data. You can add a strict filter based on the expected input.
