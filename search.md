@@ -119,6 +119,3 @@ Once it's done save it and run the server.
 ```
 https://localhost:3002
 ```
-```
-
-```
