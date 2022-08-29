@@ -15,7 +15,7 @@ In the session based authentication, the server will create a session for the us
 ## Disadvantages
 
 - Increasing server overhead: As the number of logged-in users increases, the more server resources are occupied.
-- Fail to scale
+- Fail to scale: If the sessions are distributed in different servers, we need to implement a tracking algorithm to link a specific user session and the specific session sever.
 - Difficult for 3rd party applications to use your credentials
 
 ## Token Based Authentication
