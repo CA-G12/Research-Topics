@@ -1,3 +1,16 @@
+
+## What is HTTP? 
+
+HTTP stands for Hypertext Transfer Protocol,used for transferring data over a network.
+
+## What is HTTPS?
+
+HTTPS uses TLS to encrypt HTTP requests and responses, 
+
+## HTTP vs. HTTPS: What are the differences?
+
+HTTPS is HTTP with encryption and verification. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses. As a result, HTTPS is far more secure than HTTP. A website that uses HTTP has http:// in its URL, while a website that uses HTTPS has https://.
+
 ![Alt text](https://www.cloudflare.com/img/learning/security/glossary/what-is-ssl/http-vs-https.svg)
 
 ## What is SSL/TLS?
@@ -101,4 +114,7 @@ const sslserver =https.createServer(options,app)
 Once it's done save it and run the server.
 ```
 https://localhost:3002
+```
+```
+
 ```
