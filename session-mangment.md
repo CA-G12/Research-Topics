@@ -14,7 +14,7 @@ It means if you have stored 5 cookies on the user's system, each having 4KB in s
  A session will contain some unique data about that client to allow the server to keep track of the user’s state. In session-based authentication, the user’s state is stored in the server’s memory or a database.
 
 # How does the session work? 
-![mohass] (https://user-images.githubusercontent.com/94321523/187168770-967c4465-c2d4-4343-95d5-bfe97c9b3c83.png)
+![mohass](https://user-images.githubusercontent.com/94321523/187168770-967c4465-c2d4-4343-95d5-bfe97c9b3c83.png)
 
 
 
