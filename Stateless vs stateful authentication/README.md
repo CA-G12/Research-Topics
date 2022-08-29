@@ -1,3 +1,8 @@
+# Introduction
+As the world rapidly moves towards a future where technology plays an integral part in our lives, we may have heard the word – ‘network protocol’ quite often. So what is network protocol? A network protocol is a set of rules that govern how data is formatted, sent, and received by computer network devices, ranging from servers and routers to endpoints, regardless of their underlying infrastructures, designs, or standards. Devices on both sides of a communication exchange must accept and follow protocol norms in order to send and receive data correctly.
+
+![alt text](https://www.interviewbit.com/blog/wp-content/uploads/2021/12/Internet-and-Clients-800x545.png)
+
 # Stateless vs Stateful Authentication
 
 ## Session Based Authentication
