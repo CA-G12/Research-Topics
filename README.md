@@ -24,7 +24,7 @@ this particular tab.
 
 - The limit of the session storage is **5MB** across all major browsers.
 
-- SessionStorage has 5 methods, such as **setItem()**,  **getItem()**,  **removeItem()**,  **clear()**.
+- SessionStorage has 4 methods, such as **setItem()**,  **getItem()**,  **removeItem()**,  **clear()**.
 
 - It stores the state of the user interface of the web application.
 
