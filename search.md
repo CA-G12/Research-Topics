@@ -1,9 +1,17 @@
 ![Alt text](https://www.cloudflare.com/img/learning/security/glossary/what-is-ssl/http-vs-https.svg)
 
-## What is SSL?
-SSL, or Secure Sockets Layer, is an encryption-based Internet security protocol. It was first developed by Netscape in 1995 for the purpose of ensuring privacy, authentication, and data integrity in Internet communications. SSL is the predecessor to the modern TLS encryption used today.
+## What is SSL/TLS?
+<b>SSL</b>, or Secure Sockets Layer, is an encryption-based Internet security protocol. It was first developed by Netscape in 1995 for 
+the purpose of ensuring privacy, authentication, and data integrity in Internet communications. SSL is the predecessor to the modern TLS encryption used today.
 
+<b>TLS</b>,Transport Layer Security, or TLS, is a widely adopted security protocol designed to facilitate privacy and data security for 
+communications over the Internet. TLS  used to encrypt other communications such as email, messaging, and voice over IP (VoIP).
 
+### Are SSL and TLS the same thing?
+SSL is the direct predecessor of another protocol called TLS (Transport Layer Security).
+The differences between the final version of SSL (3.0) and the first version of TLS are not drastic; the name change was applied to signify the change in ownership.
+
+![Alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--SfAucjE3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0lb1buik85z6dkrn274b.png)
 
 ### How does SSL/TLS work?
 
@@ -24,11 +32,9 @@ SSL also stops certain kinds of cyber attacks: It authenticates web servers, whi
 
 
 
-### Are SSL and TLS the same thing?
-SSL is the direct predecessor of another protocol called TLS (Transport Layer Security).
-The differences between the final version of SSL (3.0) and the first version of TLS are not drastic; the name change was applied to signify the change in ownership.
 
-![Alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--SfAucjE3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0lb1buik85z6dkrn274b.png)
+
+
 
 
 ## What is an SSL certificate?
