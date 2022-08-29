@@ -52,14 +52,6 @@ SSL certificates are what enable websites to move from HTTP to HTTPS, which is m
 - Expiration date of the certificate
 - The public key (the private key is kept secret)
 
-## Why do websites need an SSL certificate?
-
-- Encryption: SSL/TLS encryption is possible because of the public-private key pairing that SSL certificates facilitate. Clients (such as web browsers) get the public key necessary to open a TLS connection from a server's SSL certificate.
-
-- Authentication: SSL certificates verify that a client is talking to the correct server that actually owns the domain. This helps prevent domain spoofing and other kinds of attacks.
-
-- HTTPS: Most crucially for businesses, an SSL certificate is necessary for an HTTPS web address. HTTPS is the secure form of HTTP, and HTTPS websites are websites that have their traffic encrypted by SSL/TLS.
-
 ## How to generate and use an SSL certificate in NodeJS?
 
 supposed that you are create express app.
@@ -107,3 +99,6 @@ const options ={
 const sslserver =https.createServer(options,app)
 ```
 Once it's done save it and run the server.
+```
+https://localhost:3002
+```
