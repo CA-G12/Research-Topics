@@ -85,11 +85,7 @@ To generate the SSL Certificate we need to follow these steps as shown below:
 ```
 Once we ran the above command it will generate the private key and save it in key.pem file inside cert directory and gives this type of message in the terminal.
 ```
-Generating RSA private key, 2048 bit long modulus
-...+++
-.................+++
-e is 65537 (0x10001)
-
+Generating RSA private key, 2048 bit long moduluse is 65537 (0x10001)
 ```
 
 #### Create a CSR ( certificate signing request) using the private key.
