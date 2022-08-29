@@ -31,6 +31,7 @@ The differences between the final version of SSL (3.0) and the first version of 
 - <b>Encryption</b>: hides the data being transferred from third parties.
 
 - <b>Authentication</b>: ensures that the parties exchanging information are who they claim to be, This process called [handshake](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/) .
+![Alt text](https://cdn.ttgtmedia.com/rms/onlineimages/security-tls_1.3_handshake-h.png)
 
 - <b>Integrity</b>: verifies that the data has not been forged or tampered with.
 
